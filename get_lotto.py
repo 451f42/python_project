@@ -12,3 +12,8 @@ bns_num = res['bnusNo']
 for key, value in res.items():
   if 'drwtNo' in key:
     drw_nums.append(value)
+	
+print('이번주 로또 번호: ')
+print(drw_nums)
+
+print('보너스 번호: ', bns_num)
